@@ -1,3 +1,7 @@
+# Mantine Next JS Pokemon Demo
+
+This is a demo project making use of the Next JS framework with the Mantine UI components library. This is still a WIP, but the initial deployment uses the Pokemon API from https://pokeapi.co/docs/v2 to return a list of Pokemon with some minor custom styles.
+
 # Mantine Next Template
 
 Get started with Mantine + Next with just a few button clicks.
