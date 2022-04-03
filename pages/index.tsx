@@ -6,14 +6,14 @@ import { ColorSchemeToggle } from '../components/ColorSchemeToggle/ColorSchemeTo
 import useStyles from '../components/Pokemon/Pokemon.styles';
 
 export default function HomePage() {
-    const { classes } = useStyles();
-    return (
-        <>
-            <Container>
-                <Title className={classes.title}>National Pokedex</Title>
-                <ColorSchemeToggle />
-                <PokemonList />
-            </Container>
-        </>
-    );
+  const { classes } = useStyles();
+  return (
+    <>
+      <Container>
+        <Title className={classes.title}>National Pokedex</Title>
+        <ColorSchemeToggle />
+        <PokemonList />
+      </Container>
+    </>
+  );
 }

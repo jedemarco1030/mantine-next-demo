@@ -1,7 +1,7 @@
 import { Pokemon } from './Pokemon';
 
 export default {
-    title: 'My Pokemon',
+  title: 'My Pokemon',
 };
 
 export const Usage = () => <Pokemon pokemon={undefined} />;
